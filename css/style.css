@@ -1,7 +1,5 @@
 @charset "UTF-8";
 /*Обнуление*/
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
-@import url("../fonts/banny-fonts/stylesheet.css");
 * {
   padding: 0;
   margin: 0;
@@ -62,23 +60,6 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit; }
-
-/*font-family: 'PT Sans', sans-serif;*/
-/*font-family: 'Banny Round';*/
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  width: 100%; }
-  @media (max-width: 1200px) {
-    .container {
-      max-width: 900px; } }
-  @media (max-width: 991.98px) {
-    .container {
-      max-width: none;
-      padding: 0px 40px; } }
-  @media (max-width: 426px) {
-    .container {
-      padding: 0px 20px; } }
 
 .wrapper {
   max-width: 600px;
