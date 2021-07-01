@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("../fonts/banny-fonts/stylesheet.css");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+/*font-family: 'PT Sans', sans-serif;*/
+/*font-family: 'Banny Round';*/
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%; }
+  @media (max-width: 1200px) {
+    .container {
+      max-width: 900px; } }
+  @media (max-width: 991.98px) {
+    .container {
+      max-width: none;
+      padding: 0px 40px; } }
+  @media (max-width: 426px) {
+    .container {
+      padding: 0px 20px; } }
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto; }
+
+.sort {
+  padding: 20px;
+  -webkit-box-shadow: 5px 5px 10px #ccc;
+  box-shadow: 5px 5px 10px #ccc; }
+
+.sort__title {
+  font-size: 24px;
+  margin-bottom: 20px; }
+
+.sort__text {
+  margin-bottom: 20px; }
+
+.sort__btn {
+  color: #fff;
+  background-color: #000;
+  padding: 8px 16px;
+  margin-bottom: 20px; }
+  .sort__btn:hover {
+    color: #000;
+    background-color: #ccc; }
+
+.sort__list li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0; }
