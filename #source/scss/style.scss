@@ -1,4 +1,4 @@
-//<ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>
+//<FILES>
 @import "nullstyle.scss";
 //====================================================
 .wrapper {
@@ -8,27 +8,28 @@
 .sort {
 	padding: 20px;
 	box-shadow: 5px 5px 10px #ccc;
-}
-.sort__title {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
-.sort__text {
-	margin-bottom: 20px;
-}
-.sort__btn {
-	color: #fff;
-	background-color: #000;
-	padding: 8px 16px;
-	margin-bottom: 20px;
-	&:hover {
-		color: #000;
-    	background-color: #ccc;
+
+	&__title {
+		font-size: 24px;
+		margin-bottom: 20px;
 	}
-}
-.sort__list {
-	li {
-		border-bottom: 1px solid #ccc;
-		padding: 10px 0;
+	&__text {
+		margin-bottom: 20px;
+	}
+	&__btn {
+		color: #fff;
+		background-color: #000;
+		padding: 8px 16px;
+		margin-bottom: 20px;
+		&:hover {
+			color: #000;
+	    	background-color: #ccc;
+		}
+	}
+	&__list {
+		li {
+			border-bottom: 1px solid #ccc;
+			padding: 10px 0;
+		}
 	}
 }
